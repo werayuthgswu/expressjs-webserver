@@ -8,7 +8,7 @@ Expressjs Application
         $ npm init -y
 4. Open folder using vscode <br>
         $ code .
-5. Install dependencies (libraries)
+5. Install dependencies (libraries) <br>
         $ npm install -dev body-parser ejs express
 5. You should see dependencies (libraries) section with the libraries we install <br>  
 6. In package.json, Add new line in the scripts section to look like below
@@ -18,7 +18,7 @@ Expressjs Application
         "start" : "node app.js"
      },
    </pre><br>
-7. Copy contents from the project on github to yours. Don't overwrite existing files
+7. Copy contents from the project on github to yours. **Don't** overwrite existing files
 8. Run nodejs application from the command prompt <br>
         $ npm start  (or you can run $ node app.js)
 9. Open browser http://localhost:3000 
