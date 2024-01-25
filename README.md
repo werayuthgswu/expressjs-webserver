@@ -10,7 +10,7 @@ Expressjs Application
         $ code .
 5. Install dependencies (libraries) <br>
         $ npm install -dev body-parser ejs express
-5. You should see dependencies (libraries) section with the libraries we install <br>  
+5. In package.json, you should see dependencies (libraries) section with the libraries we install <br>  
 6. In package.json, Add new line in the scripts section to look like below
    <pre>
      "scripts": {
