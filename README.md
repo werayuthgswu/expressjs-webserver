@@ -23,4 +23,13 @@ Expressjs Application
         $ npm start  (or you can run $ node app.js)
 9. Open browser http://localhost:3000 
 10. Try interact with the web page
-11. Use ctrl+c to stop node application 
+11. Use ctrl+c to stop node application
+<br>
+**Exercise**
+1. Currently, webpage display a note without showing which part is the subject and which part is the content.  Modify code so that it displays (after your have posted)
+    **Title**:  FirstTitle
+    **Content**:  This is my first content
+
+2. Currently, when you click Tag, it returns an empty tag. Modify code so that it gives you [‘unknown’] if the content has not been tagged.
+
+3. Currently, when you click Category, it returns an error. Modify code so that it gives you [‘unknown’] if the content is not belong to any category.
