@@ -28,9 +28,10 @@ Expressjs Application
 
 **Exercise**
 1. Currently, webpage display a note without showing which part is the subject and which part is the content.  Modify code so that it displays (after your have posted)
-    **Title**:  FirstTitle
-    **Content**:  This is my first content
+   <pre>
+    <b>Title:</b>  FirstTitle
+    <b>Content:</b>  This is my first content
+   </pre>
+3. Currently, when you click Tag, it returns an empty tag. Modify code so that it gives you **[‘unknown’]** if the content has not been tagged.
 
-2. Currently, when you click Tag, it returns an empty tag. Modify code so that it gives you [‘unknown’] if the content has not been tagged.
-
-3. Currently, when you click Category, it returns an error. Modify code so that it gives you [‘unknown’] if the content is not belong to any category.
+4. Currently, when you click Category, it returns an error. Modify code so that it gives you **[‘unknown’]** if the content is not belong to any category.
