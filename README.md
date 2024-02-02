@@ -1,9 +1,9 @@
 # expressjs-webserver
 Expressjs Application
 1. At command prompt, create a folder expressjs-webserver <br>
-	$ mkdir expressjs-webserver
+	$ mkdir expressjs-[your id]
 2. Change folder to the newly created folder <br>
-        $ cd expressjs-webserver
+        $ cd expressjs-[your id]
 3. Initialize nodejs (this command will create package.json) <br>
         $ npm init -y
 4. Open folder using vscode <br>
