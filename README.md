@@ -25,6 +25,7 @@ Expressjs Application
 10. Try interact with the web page
 11. Use ctrl+c to stop node application
 <br>
+
 **Exercise**
 1. Currently, webpage display a note without showing which part is the subject and which part is the content.  Modify code so that it displays (after your have posted)
     **Title**:  FirstTitle
