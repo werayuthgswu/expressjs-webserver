@@ -11,14 +11,14 @@ Expressjs Application
 5. Install dependencies (libraries) <br>
         $ npm install -dev body-parser ejs express
 5. In package.json, you should see dependencies (libraries) section with the libraries we install <br>  
-6. In package.json, Add new line in the scripts section to look like below
+6. In package.json, Add one new line into the scripts section to look like below (don't forget the ',')
    <pre>
      "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start" : "node app.js"
      },
    </pre><br>
-7. Copy contents from the project on github to yours. **Don't** overwrite existing files
+7. Copy contents from the project on github to yours. **Don't** overwrite existing files (Don't copy package.json and package-lock.json)
 8. Run nodejs application from the command prompt <br>
         $ npm start  (or you can run $ node app.js)
 9. Open browser http://localhost:3000 
@@ -26,12 +26,12 @@ Expressjs Application
 11. Use ctrl+c to stop node application
 <br>
 
-**Exercise**
-1. Currently, webpage display a note without showing which part is the subject and which part is the content.  Modify code so that it displays (after your have posted)
+**Exercise** (You need to restart **npm start** when you modify your code)
+1. Currently, webpage displays a note without showing which part is the subject and which part is the content.  Modify code so that it displays (after your have posted). <b> DO NOT</b> modify the form
    <pre>
-    <b>Title:</b>  FirstTitle
-    <b>Content:</b>  This is my first content
+    <b>Subject:</b>  FirstTitle
+    <b>Data:</b>  This is my first content
    </pre>
-3. Currently, when you click Tag, it returns an empty tag. Modify code so that it gives you **[‘unknown’]** if the content has not been tagged.
+3. Currently, when you click View Tags, it returns an empty tag. Modify code so that it is not empty, but returns **[‘unknown’]** if the content has not been tagged.
 
-4. Currently, when you click Category, it returns an error. Modify code so that it gives you **[‘unknown’]** if the content is not belong to any category.
+4. Currently, when you click View Category, it returns an error. Modify code so that it return **[‘unknown’]** simmilar to that of **view tags** if the content is not belong to any category.
