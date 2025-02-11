@@ -32,6 +32,6 @@ Expressjs Application
     <b>Subject:</b>  FirstTitle
     <b>Data:</b>  This is my first content
    </pre>
-3. Currently, when you click View Tags, it returns an empty tag. Modify code so that it is not empty, but returns **[‘unknown’]** if the content has not been tagged.
+3. Currently, when you click View Tags, it returns an empty tag. Modify code so that it is not empty, but returns **{"tags":[0]}** in the first time. For the second time add next number. E.g, the result after 4 clicks would be  **{"tags":[0,1,2,3]}**
 
-4. Currently, when you click View Category, it returns an error. Modify code so that it return **[‘unknown’]** simmilar to that of **view tags** if the content is not belong to any category.
+4. Currently, when you click View Category, it returns an error. Modify code so that it return **{"categories":['unknown']}** if the content is not belong to any category.
